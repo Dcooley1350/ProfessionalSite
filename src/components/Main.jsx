@@ -3,14 +3,11 @@ import Carousel from './Carousel'
 
 
 function Main (){
-    var footerStyles = {
-        position: 'fixed',
-        bottom: '0'
-    }
+
     return(
-        <main>
+        <div>
             <Carousel/>
-        </main>
+        </div>
     )
 }
 
